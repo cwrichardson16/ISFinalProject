@@ -1,0 +1,72 @@
+body 
+    {   background-color: #add8e6;
+    font-family: Helvetica, sans-serif; /* Changed font for the whole body */
+    }
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;}
+.center-text {
+    text-align: center; /* Center text alignment */ }
+.custom-div {
+    position: relative; /* Relative positioning */
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd; /* A light grey border */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.flex-item {
+    flex-grow: 1;
+    min-width: 150px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits text color from parent or explicitly set a color */
+}
+
+.custom-div {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%; /* Ensures the div takes the full width of the anchor */
+    height: 100%; /* Ensures the div takes the full height of the anchor */
+}
+.video-container {
+    text-align: center; /* Center-aligns the iframe horizontally */
+}
+
+.video-container iframe {
+    margin: auto; /* Additional centering for the iframe */
+    display: block; /* Makes the iframe behave like a block element */
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #333; /* or any color of your choice */
+    margin: 20px 0; /* Adjusts spacing above and below the line */
+}
+div.tableauPlaceholder {
+    margin: auto; /* Center the div horizontally */
+    display: block; /* Treat the div as a block element */
+    align-items: center;
+    max-width: 600px; /* Optional: Adjust the max width as needed */
+}
+.tableau-center {
+    display: flex;
+    justify-content: center;
+}
+.tableauPlaceholder {
+    margin: auto;
+    max-width: 700px; /* Adjust as needed */
+}
